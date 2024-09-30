@@ -1,0 +1,20 @@
+program prjSistema;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {formPrincipal},
+  uCadastroPac in 'uCadastroPac.pas' {formCadastro},
+  uCadastroAgenda in 'uCadastroAgenda.pas' {formAgendamento},
+  uDM in 'uDM.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TformPrincipal, formPrincipal);
+  Application.CreateForm(TformCadastro, formCadastro);
+  Application.CreateForm(TformAgendamento, formAgendamento);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

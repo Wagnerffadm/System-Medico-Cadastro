@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/10 18:00:47.000.432,=C:\Users\wagne\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/10 18:07:43.000.349,=C:\Users\wagne\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/30 11:35:10.000.839,=C:\Users\wagne\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/30 11:35:25.000.406,C:\Users\wagne\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\wagne\OneDrive\Área de Trabalho\Clinica\uPrincipal.dfm</Transaction>
+    <Transaction>2024/09/30 11:35:25.000.406,C:\Users\wagne\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\wagne\OneDrive\Área de Trabalho\Clinica\uPrincipal.pas</Transaction>
+    <Transaction>2024/09/30 11:35:56.000.867,C:\Users\wagne\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\wagne\OneDrive\Área de Trabalho\Clinica\prjSistema.dproj</Transaction>
+    <Transaction>2024/09/30 12:11:43.960,=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit2.pas</Transaction>
+    <Transaction>2024/09/30 12:12:30.503,C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\uCadastroPac.pas=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit2.pas</Transaction>
+    <Transaction>2024/09/30 12:12:30.504,C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\uCadastroPac.dfm=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit2.dfm</Transaction>
+    <Transaction>2024/09/30 12:12:36.307,=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit3.pas</Transaction>
+    <Transaction>2024/09/30 12:13:13.940,C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\uCadastroAgenda.pas=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit3.pas</Transaction>
+    <Transaction>2024/09/30 12:13:13.940,C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\uCadastroAgenda.dfm=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit3.dfm</Transaction>
+    <Transaction>2024/09/30 12:56:15.654,=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit1.pas</Transaction>
+    <Transaction>2024/09/30 13:01:52.616,C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\uDM.dfm=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit1.dfm</Transaction>
+    <Transaction>2024/09/30 13:01:52.616,C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\uDM.pas=C:\Users\wagne\OneDrive\Área de Trabalho\Delphi\Clinica\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

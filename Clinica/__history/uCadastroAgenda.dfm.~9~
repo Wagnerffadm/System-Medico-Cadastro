@@ -1,0 +1,193 @@
+object formAgendamento: TformAgendamento
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Agendamentos'
+  ClientHeight = 448
+  ClientWidth = 691
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  TextHeight = 15
+  object Label2: TLabel
+    Left = 24
+    Top = 123
+    Width = 18
+    Height = 18
+    Caption = 'ID'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 216
+    Top = 123
+    Width = 134
+    Height = 18
+    Caption = 'Nome do Paciente'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 179
+    Width = 35
+    Height = 18
+    Caption = 'Data'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 216
+    Top = 179
+    Width = 36
+    Height = 18
+    Caption = 'Hora'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 235
+    Width = 103
+    Height = 18
+    Caption = 'Especialidade'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Top = 299
+    Width = 122
+    Height = 18
+    Caption = 'Nome do M'#233'dico'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 691
+    Height = 97
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = -295
+    ExplicitWidth = 919
+    object Label1: TLabel
+      Left = 88
+      Top = 29
+      Width = 178
+      Height = 29
+      Caption = 'Agendamentos'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -24
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object DBNavigator1: TDBNavigator
+      Left = 320
+      Top = 36
+      Width = 360
+      Height = 25
+      DataSource = DM.dsAgendamento
+      TabOrder = 0
+    end
+  end
+  object DBEdit1: TDBEdit
+    Left = 24
+    Top = 147
+    Width = 175
+    Height = 23
+    DataField = 'id'
+    DataSource = DM.dsAgendamento
+    TabOrder = 1
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 216
+    Top = 147
+    Width = 273
+    Height = 23
+    DataField = 'id_paciente'
+    DataSource = DM.dsAgendamento
+    KeyField = 'id'
+    ListField = 'nome'
+    ListSource = DM.dsPaciente
+    TabOrder = 2
+  end
+  object DBEdit2: TDBEdit
+    Left = 24
+    Top = 203
+    Width = 175
+    Height = 23
+    DataField = 'data'
+    DataSource = DM.dsAgendamento
+    TabOrder = 3
+  end
+  object DBEdit3: TDBEdit
+    Left = 216
+    Top = 203
+    Width = 113
+    Height = 23
+    DataField = 'hora'
+    DataSource = DM.dsAgendamento
+    TabOrder = 4
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 24
+    Top = 259
+    Width = 305
+    Height = 23
+    DataField = 'especialidade'
+    DataSource = DM.dsAgendamento
+    Items.Strings = (
+      'Cl'#237'nico Geral '
+      'Cardiologista'
+      'Ortopedista'
+      'Neurologista'
+      'Ginecologista'
+      'Psic'#243'logia'
+      'Nutricionista'
+      'Aftalmologista'
+      'Otorrinoralingologista')
+    TabOrder = 5
+  end
+  object DBEdit4: TDBEdit
+    Left = 24
+    Top = 323
+    Width = 175
+    Height = 23
+    DataField = 'medico'
+    DataSource = DM.dsAgendamento
+    TabOrder = 6
+  end
+end
